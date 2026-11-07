@@ -1,20 +1,20 @@
 class Yqr < Formula
   desc "A jq-style CLI for YAML: query and surgically edit while preserving comments, quoting, and formatting byte-for-byte"
   homepage "https://zoosky.github.io/yqr/"
-  version "0.11.0"
+  version "0.12.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/zoosky/yqr/releases/download/v0.11.0/yqr-aarch64-apple-darwin.tar.xz"
-      sha256 "b1fdf69f99fcbc2a1904847a383494031a3a7b753636200ecb1afceb4548a965"
+      url "https://github.com/zoosky/yqr/releases/download/v0.12.0/yqr-aarch64-apple-darwin.tar.xz"
+      sha256 "93b1692b4319e5c204576126f2ef4067f87a4c49e2af15f2cd75c9c47318a6af"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zoosky/yqr/releases/download/v0.11.0/yqr-x86_64-apple-darwin.tar.xz"
-      sha256 "78253516a9ae962a84b8bdb86024d92b3acac6016faecd525ea4fb32a3550305"
+      url "https://github.com/zoosky/yqr/releases/download/v0.12.0/yqr-x86_64-apple-darwin.tar.xz"
+      sha256 "373e6d48e09d4d4718a6d3726fbe46feda17437c698d57d3af0c9d18642399af"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/zoosky/yqr/releases/download/v0.11.0/yqr-x86_64-unknown-linux-musl.tar.xz"
-    sha256 "625f3e2d40ac025c90b1db1820ba960440b7c9014c19b17dfa16f8af31748d86"
+    url "https://github.com/zoosky/yqr/releases/download/v0.12.0/yqr-x86_64-unknown-linux-musl.tar.xz"
+    sha256 "531ab74e08594b23fcd8a0e0e8c1beecad18da2a341e48c09b89cce08285bade"
   end
   license any_of: ["MIT", "Apache-2.0"]
 
