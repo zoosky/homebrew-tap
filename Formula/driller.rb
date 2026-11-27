@@ -5,19 +5,19 @@ class Driller < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zoosky/driller/releases/download/0.14.2/driller-aarch64-apple-darwin.tar.gz"
-      sha256 "6168e68b693330663c8de2cf4d1efb910bcd5f0210dc9a18d8a2b3b56f9bb7da"
+      url "https://github.com/zoosky/driller/releases/download/0.14.3/driller-aarch64-apple-darwin.tar.gz"
+      sha256 "a6eb783bba4c01d69b797be4ae593efd0518800a5887c4b065c401a1ed07cee7"
     end
     on_intel do
-      url "https://github.com/zoosky/driller/releases/download/0.14.2/driller-x86_64-apple-darwin.tar.gz"
-      sha256 "c90d073029cf2c651c017f77780a4485f4b03b5c0f0065b053d75175f0a553b3"
+      url "https://github.com/zoosky/driller/releases/download/0.14.3/driller-x86_64-apple-darwin.tar.gz"
+      sha256 "b7e89a6e976b8eda53f103c8ab4d17bc1ec677f4e9a1bca51ee572d690b8fb94"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/zoosky/driller/releases/download/0.14.2/driller-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "af5e4afe5043af4de93f0e3c413c26dda11f5ba2946ec0487888fd12e9f3fb59"
+      url "https://github.com/zoosky/driller/releases/download/0.14.3/driller-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d2c6a6359f89e8ad39db5df8874d349446cd450f79f8bc306204c388de514f3e"
     end
   end
 
