@@ -1,7 +1,6 @@
 class Driller < Formula
   desc "HTTP load-testing tool with Ansible-style YAML plans"
   homepage "https://github.com/zoosky/driller"
-  version "0.14.1"
   license "GPL-3.0-only"
 
   on_macos do
